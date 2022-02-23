@@ -241,8 +241,6 @@ inverse
 
 #write.table(by_case_sample, file = "01mar2021_EPI_ISL_case_sample_inverse_summary.txt",row.names=TRUE,sep=",", quote = TRUE)
 
-###Method 4: Flaxman 
-
 cpw$names <-  c("2020-01-19","2020-01-26","2020-02-02","2020-02-09","2020-02-16","2020-02-23",
                 "2020-03-01","2020-03-08","2020-03-15","2020-03-22","2020-03-29","2020-04-05","2020-04-12")
 case <- ggplot(data=cpw, aes(x=names, y=x)) +
