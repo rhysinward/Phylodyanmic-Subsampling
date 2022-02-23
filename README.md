@@ -33,18 +33,25 @@ Step 2: Process genomic data
 * Align sequences using MAFFT 
 * Remove first 130 and last 50 base pairs (Mega X was used to do this)
 
-Step 3: Quality control using NexClade pipeline
+Step 3: Quality control
 
-nextclade \
---in-order \
---input-fasta data/sars-cov-2/sequences.aln.fasta \
---output-tsv output/nextclade.tsv \
---input-dataset data/sars-cov-2 \
---output-tree output/nextclade.auspice.json \
---output-dir output/ \
---output-basename nextclade
-
-Run the R script Code/Quality_Control 
+* See here for Next clade pipeline - https://docs.nextstrain.org/projects/nextclade/en/stable/
+* Run dataset through IQTREE to generate ML-tree
+* Process using tempest and remove erroneous sequences using Code/remove_sequences_from_tempest.R
 
 Step 4: Sub-sample dataset
 
+* Run script Code/sampling_code_Hong_Kong.R to generate sub-sampled Hong Kong dataset and plots
+
+Step 5: Analysis  
+
+* Run dataset through BEAST/BEAST2 (see XML's) for TMRCA + BDSKY
+* Run dataset through Code/Skygrowth_ML+BEAST.R for Skygrowth
+
+Step 6: Analysis and plotting of results
+
+* Run BDSKY model through Code/Skyline_BDSKY.r
+* Subsequently run through Code/final_merge_HPD_BDSKY.R or final_merge_HPD_Skygrowth.R to plot EpiFilter against BDSKY or Skygrowth
+* Run Code/Jensen_Shannon_Divergence_BDSKY_Hong_Kong.R to get JSD
+* Run Code/plot_TMRCA_and_R0.R to get TMRCA and R0 plots 
+* Run Code/substitution_rate_plot.R to get substitution rate plot
