@@ -2,7 +2,7 @@
 
 
 # Repository description:
-This code and data were used for the analysis presented in “Using multiple sampling strategies to estimate SARS-CoV-2 epidemiological parameters from genomic sequencing data https://www.medrxiv.org/content/10.1101/2022.02.04.22270165v1.
+This code and data were used for the analysis presented in “Using multiple sampling strategies to estimate SARS-CoV-2 epidemiological parameters from genomic sequencing data" - https://www.medrxiv.org/content/10.1101/2022.02.04.22270165v1.
 
 The repository contains the following elements:
 
