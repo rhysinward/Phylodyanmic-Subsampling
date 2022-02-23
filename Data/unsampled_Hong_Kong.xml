@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+
+    <data
+id="BetaCoV_Wuhan_177seqs_22dec2020_alligned"
+spec="Alignment"
+name="alignment">
+
+EPI_ISL_ 412028
+EPI_ISL_ 412029
+EPI_ISL_ 412030
+EPI_ISL_ 414517
+EPI_ISL_ 414519
+EPI_ISL_ 414527
+EPI_ISL_ 414528
+EPI_ISL_ 414569
+EPI_ISL_ 414571
+EPI_ISL_ 416314
+EPI_ISL_ 417064
+EPI_ISL_ 417176
+EPI_ISL_ 417178
+EPI_ISL_ 417181
+EPI_ISL_ 417185
+EPI_ISL_ 417187
+EPI_ISL_ 417188
+EPI_ISL_ 417193
+EPI_ISL_ 417197
+EPI_ISL_ 417443
+EPI_ISL_ 418815
+EPI_ISL_ 419214
+EPI_ISL_ 419215
+EPI_ISL_ 419216
+EPI_ISL_ 419217
+EPI_ISL_ 419219
+EPI_ISL_ 419221
+EPI_ISL_ 419222
+EPI_ISL_ 419224
+EPI_ISL_ 419225
+EPI_ISL_ 419226
+EPI_ISL_ 419227
+EPI_ISL_ 419228
+EPI_ISL_ 419229
+EPI_ISL_ 419231
+EPI_ISL_ 419232
+EPI_ISL_ 419245
+EPI_ISL_ 419247
+EPI_ISL_ 419250
+EPI_ISL_ 419252
+EPI_ISL_ 434560
+EPI_ISL_ 434563
+EPI_ISL_ 434564
+EPI_ISL_ 434565
+EPI_ISL_ 434566
+EPI_ISL_ 434567
+EPI_ISL_ 434568
+EPI_ISL_ 434569
+EPI_ISL_ 434570
+EPI_ISL_ 434571
+EPI_ISL_ 450404
+EPI_ISL_ 450405
+EPI_ISL_ 450408
+EPI_ISL_ 450409
+EPI_ISL_ 450410
+EPI_ISL_ 450411
+EPI_ISL_ 450412
+EPI_ISL_ 476801
+EPI_ISL_ 476802
+EPI_ISL_ 476803
+EPI_ISL_ 476804
+EPI_ISL_ 497769
+EPI_ISL_ 497771
+EPI_ISL_ 497773
+EPI_ISL_ 497775
+EPI_ISL_ 497783
+EPI_ISL_ 497784
+EPI_ISL_ 497786
+EPI_ISL_ 497791
+EPI_ISL_ 497796
+EPI_ISL_ 497797
+EPI_ISL_ 497798
+EPI_ISL_ 497799
+EPI_ISL_ 497806
+EPI_ISL_ 497808
+EPI_ISL_ 497810
+EPI_ISL_ 497811
+EPI_ISL_ 497812
+EPI_ISL_ 497813
+EPI_ISL_ 497818
+EPI_ISL_ 497819
+EPI_ISL_ 497820
+EPI_ISL_ 497821
+EPI_ISL_ 497823
+EPI_ISL_ 497824
+EPI_ISL_ 497826
+EPI_ISL_ 497827
+EPI_ISL_ 497831
+EPI_ISL_ 497832
+EPI_ISL_ 497833
+EPI_ISL_ 497840
+EPI_ISL_ 497845
+EPI_ISL_ 497846
+EPI_ISL_ 497847
+EPI_ISL_ 497848
+EPI_ISL_ 497850
+EPI_ISL_ 497856
+EPI_ISL_ 497860
+EPI_ISL_ 497864
+EPI_ISL_ 497865
+EPI_ISL_ 497870
+EPI_ISL_ 516798
+EPI_ISL_ 539820
+EPI_ISL_ 539850
+EPI_ISL_ 539851
+EPI_ISL_ 610165
+EPI_ISL_ 610166
+EPI_ISL_ 610167
+EPI_ISL_ 610168
+EPI_ISL_ 610169
+EPI_ISL_ 610170
+EPI_ISL_ 610171
+EPI_ISL_ 610172
+EPI_ISL_ 610173
+EPI_ISL_ 610174
+EPI_ISL_ 610175
+EPI_ISL_ 610177
+
+   </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="50000000">
+    <state id="state" spec="State" storeEvery="5000">
+        <tree id="Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="beast.evolution.tree.Tree" name="stateNode">
+            <trait id="dateTrait.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="beast.evolution.tree.TraitSet" traitname="date" value=
+
+<taxa id="TaxonSet.BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="TaxonSet">
+                    <alignment idref="BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        </tree>
+        <parameter id="clockRate.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" name="stateNode">8.0E-4</parameter>
+        <parameter id="gammaShape.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" name="stateNode">0.288</parameter>
+        <parameter id="kappa.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" lower="0.0" name="stateNode">6.032</parameter>
+        <parameter id="origin_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="Infinity">1000.0</parameter>
+        <parameter id="becomeUninfectiousRate_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="Infinity">1.0</parameter>
+        <parameter id="reproductiveNumber_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" dimension="10" lower="0.0" name="stateNode" upper="Infinity">2.0</parameter>
+        <parameter id="samplingProportion_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.01</parameter>
+        <parameter id="freqParameter.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+    </state>
+
+    <init id="RandomTree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" taxa="@BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+        <populationModel id="ConstantPopulation0.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="beast.evolution.speciation.BirthDeathSkylineModel" becomeUninfectiousRate="@becomeUninfectiousRate_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" origin="@origin_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" reproductiveNumber="@reproductiveNumber_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" samplingProportion="@samplingProportion_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+            <prior id="becomeUninfectiousRatePrior_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@becomeUninfectiousRate_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <Normal id="Normal.1" name="distr">
+                    <parameter id="RealParameter.98" spec="parameter.RealParameter" estimate="false" name="mean">36.5</parameter>
+                    <parameter id="RealParameter.99" spec="parameter.RealParameter" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </prior>
+            <prior id="ClockPrior.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@clockRate.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <LogNormal id="LogNormalDistributionModel.17" name="distr">
+                    <parameter id="RealParameter.92" spec="parameter.RealParameter" estimate="false" name="M">-7.0</parameter>
+                    <parameter id="RealParameter.93" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">1.75</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="FrequenciesPrior.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@freqParameter.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <Uniform id="Uniform.18" name="distr"/>
+            </prior>
+            <prior id="GammaShapePrior.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@gammaShape.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <Exponential id="Exponential.2" name="distr">
+                    <parameter id="RealParameter.81" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="KappaPrior.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@kappa.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <LogNormal id="LogNormalDistributionModel.14" name="distr">
+                    <parameter id="RealParameter.82" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.83" spec="parameter.RealParameter" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="originPrior_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@origin_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <LogNormal id="LogNormalDistributionModel.18" name="distr">
+                    <parameter id="RealParameter.94" spec="parameter.RealParameter" estimate="false" name="M">-1.5</parameter>
+                    <parameter id="RealParameter.95" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.4</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="reproductiveNumberPrior_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@reproductiveNumber_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <LogNormal id="LogNormalDistributionModel.16" name="distr">
+                    <parameter id="RealParameter.88" spec="parameter.RealParameter" estimate="false" name="M">0.8</parameter>
+                    <parameter id="RealParameter.89" spec="parameter.RealParameter" estimate="false" name="S">0.5</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="samplingProportionPrior_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" name="distribution" x="@samplingProportion_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <Uniform id="Uniform.14" name="distr" upper="0.112"/>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ThreadedTreeLikelihood" data="@BetaCoV_Wuhan_177seqs_22dec2020_alligned" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                <siteModel id="SiteModel.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                    <parameter id="mutationRate.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="HKY" kappa="@kappa.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned">
+                        <frequencies id="estimatedFreqs.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="Frequencies" frequencies="@freqParameter.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="StrictClock.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="StrictClockRateScaler.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" parameter="@clockRate.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="3.0"/>
+
+    <operator id="strictClockUpDownOperator.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <down idref="Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+    </operator>
+
+    <operator id="gammaShapeScaler.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" parameter="@gammaShape.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="KappaScaler.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" parameter="@kappa.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="BDSKY_SerialTreeScaler.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="3.0"/>
+
+    <operator id="BDSKY_SerialTreeRootScaler.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="3.0"/>
+
+    <operator id="BDSKY_SerialUniformOperator.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="Uniform" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="30.0"/>
+
+    <operator id="BDSKY_SerialSubtreeSlide.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="SubtreeSlide" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="15.0"/>
+
+    <operator id="BDSKY_SerialNarrow.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="Exchange" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="15.0"/>
+
+    <operator id="BDSKY_SerialWide.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="Exchange" isNarrow="false" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="3.0"/>
+
+    <operator id="BDSKY_SerialWilsonBalding.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="WilsonBalding" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="3.0"/>
+
+    <operator id="becomeUninfectiousRateScaler_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" parameter="@becomeUninfectiousRate_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="2.0"/>
+
+    <operator id="reproductiveNumberScaler_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" parameter="@reproductiveNumber_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="10.0"/>
+
+    <operator id="samplingProportionScaler_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" parameter="@samplingProportion_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="10.0"/>
+
+    <operator id="updownBD_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="UpDownOperator" scaleFactor="0.75" weight="2.0">
+        <up idref="reproductiveNumber_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <down idref="becomeUninfectiousRate_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+    </operator>
+
+    <operator id="origScaler_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="ScaleOperator" parameter="@origin_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" weight="1.0"/>
+
+    <operator id="FrequenciesExchanger.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+    </operator>
+
+    <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="5000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log id="TreeHeight.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="clockRate.c:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="gammaShape.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="kappa.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="origin_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="becomeUninfectiousRate_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="reproductiveNumber_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="samplingProportion_BDSKY_Serial.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+        <log idref="freqParameter.s:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="1000">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="Logger" fileName="$(tree).trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:BetaCoV_Wuhan_177seqs_22dec2020_alligned"/>
+    </logger>
+
+    <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+
+</run>
+
+</beast>
+
