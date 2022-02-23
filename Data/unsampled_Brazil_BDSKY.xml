@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.6">
+
+
+    <data
+id="unsampled_Brazil"
+spec="Alignment"
+name="alignment">
+     </data>
+
+EPI_ISL_ 1034306
+EPI_ISL_ 1060876
+EPI_ISL_ 1060877
+EPI_ISL_ 1060881
+EPI_ISL_ 1060888
+EPI_ISL_ 1060889
+EPI_ISL_ 1060894
+EPI_ISL_ 1060897
+EPI_ISL_ 1060900
+EPI_ISL_ 1060902
+EPI_ISL_ 1060904
+EPI_ISL_ 1060906
+EPI_ISL_ 1060911
+EPI_ISL_ 1060912
+EPI_ISL_ 1060913
+EPI_ISL_ 1060914
+EPI_ISL_ 1060918
+EPI_ISL_ 1060956
+EPI_ISL_ 1061026
+EPI_ISL_ 1068110
+EPI_ISL_ 1068111
+EPI_ISL_ 1068112
+EPI_ISL_ 1068114
+EPI_ISL_ 1068149
+EPI_ISL_ 1068150
+EPI_ISL_ 1068151
+EPI_ISL_ 1068154
+EPI_ISL_ 1068156
+EPI_ISL_ 1068158
+EPI_ISL_ 1068160
+EPI_ISL_ 1068169
+EPI_ISL_ 1068198
+EPI_ISL_ 1068221
+EPI_ISL_ 1068222
+EPI_ISL_ 1068225
+EPI_ISL_ 1068226
+EPI_ISL_ 1068243
+EPI_ISL_ 1068248
+EPI_ISL_ 1068249
+EPI_ISL_ 1068258
+EPI_ISL_ 1068260
+EPI_ISL_ 1068261
+EPI_ISL_ 1068262
+EPI_ISL_ 1068263
+EPI_ISL_ 1068264
+EPI_ISL_ 1068266
+EPI_ISL_ 1068268
+EPI_ISL_ 1068269
+EPI_ISL_ 1068270
+EPI_ISL_ 1068271
+EPI_ISL_ 1068272
+EPI_ISL_ 1068273
+EPI_ISL_ 1068274
+EPI_ISL_ 1068275
+EPI_ISL_ 1068276
+EPI_ISL_ 1068278
+EPI_ISL_ 1068279
+EPI_ISL_ 1068280
+EPI_ISL_ 1068281
+EPI_ISL_ 1068282
+EPI_ISL_ 1068283
+EPI_ISL_ 1068284
+EPI_ISL_ 1068285
+EPI_ISL_ 1068286
+EPI_ISL_ 1068287
+EPI_ISL_ 1068288
+EPI_ISL_ 1068289
+EPI_ISL_ 1068290
+EPI_ISL_ 1068291
+EPI_ISL_ 1068292
+EPI_ISL_ 1166615
+EPI_ISL_ 1213190
+EPI_ISL_ 1213204
+EPI_ISL_ 1261683
+EPI_ISL_ 1261685
+EPI_ISL_ 1261690
+EPI_ISL_ 1261694
+EPI_ISL_ 2777236
+EPI_ISL_ 2777238
+EPI_ISL_ 2777248
+EPI_ISL_ 2777249
+EPI_ISL_ 2777250
+EPI_ISL_ 2777251
+EPI_ISL_ 2777320
+EPI_ISL_ 2777363
+EPI_ISL_ 2777364
+EPI_ISL_ 2777373
+EPI_ISL_ 2777374
+EPI_ISL_ 2777375
+EPI_ISL_ 2777376
+EPI_ISL_ 2777377
+EPI_ISL_ 2777378
+EPI_ISL_ 2777380
+EPI_ISL_ 2777382
+EPI_ISL_ 2777383
+EPI_ISL_ 2777384
+EPI_ISL_ 2777385
+EPI_ISL_ 2777388
+EPI_ISL_ 2777397
+EPI_ISL_ 2777398
+EPI_ISL_ 2777399
+EPI_ISL_ 2777400
+EPI_ISL_ 2777401
+EPI_ISL_ 2777402
+EPI_ISL_ 2777403
+EPI_ISL_ 2777404
+EPI_ISL_ 2777405
+EPI_ISL_ 2777406
+EPI_ISL_ 2777407
+EPI_ISL_ 2777408
+EPI_ISL_ 2777409
+EPI_ISL_ 2777410
+EPI_ISL_ 2777412
+EPI_ISL_ 2777413
+EPI_ISL_ 2777414
+EPI_ISL_ 2777415
+EPI_ISL_ 2777416
+EPI_ISL_ 2777417
+EPI_ISL_ 2777418
+EPI_ISL_ 2777419
+EPI_ISL_ 2777420
+EPI_ISL_ 2777454
+EPI_ISL_ 2777460
+EPI_ISL_ 2777461
+EPI_ISL_ 2777462
+EPI_ISL_ 2777464
+EPI_ISL_ 2777465
+EPI_ISL_ 2777466
+EPI_ISL_ 2777467
+EPI_ISL_ 2777468
+EPI_ISL_ 2777469
+EPI_ISL_ 2777470
+EPI_ISL_ 2777471
+EPI_ISL_ 2777472
+EPI_ISL_ 2777473
+EPI_ISL_ 2777474
+EPI_ISL_ 2777475
+EPI_ISL_ 2777477
+EPI_ISL_ 2777478
+EPI_ISL_ 2777479
+EPI_ISL_ 2777481
+EPI_ISL_ 2777482
+EPI_ISL_ 2777483
+EPI_ISL_ 2777484
+EPI_ISL_ 2777485
+EPI_ISL_ 2777495
+EPI_ISL_ 2777498
+EPI_ISL_ 2777499
+EPI_ISL_ 2777503
+EPI_ISL_ 2777507
+EPI_ISL_ 2777508
+EPI_ISL_ 2777509
+EPI_ISL_ 2777516
+EPI_ISL_ 2777539
+EPI_ISL_ 2777599
+EPI_ISL_ 2777698
+EPI_ISL_ 2777700
+EPI_ISL_ 2777701
+EPI_ISL_ 2777740
+EPI_ISL_ 2777986
+EPI_ISL_ 2777987
+EPI_ISL_ 2777993
+EPI_ISL_ 2777995
+EPI_ISL_ 2777996
+EPI_ISL_ 2777997
+EPI_ISL_ 2777998
+EPI_ISL_ 2777999
+EPI_ISL_ 2778000
+EPI_ISL_ 2778002
+EPI_ISL_ 2778004
+EPI_ISL_ 2778005
+EPI_ISL_ 811149
+EPI_ISL_ 833136
+EPI_ISL_ 833138
+EPI_ISL_ 833139
+EPI_ISL_ 833140
+EPI_ISL_ 906071
+EPI_ISL_ 906075
+EPI_ISL_ 906076
+EPI_ISL_ 906077
+EPI_ISL_ 906080
+EPI_ISL_ 906081
+EPI_ISL_ 918499
+EPI_ISL_ 918500
+EPI_ISL_ 918501
+EPI_ISL_ 918502
+EPI_ISL_ 918503
+EPI_ISL_ 918504
+EPI_ISL_ 918505
+EPI_ISL_ 918506
+EPI_ISL_ 918507
+EPI_ISL_ 918508
+EPI_ISL_ 918509
+EPI_ISL_ 918510
+EPI_ISL_ 918511
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="100000000">
+    <state id="state" spec="State" storeEvery="5000">
+        <tree id="Tree.t:unsampled_Brazil" spec="beast.evolution.tree.Tree" name="stateNode">
+            <trait id="dateTrait.t:unsampled_Brazil" spec="beast.evolution.tree.TraitSet" traitname="date" value="
+                <taxa id="TaxonSet.unsampled_Brazil" spec="TaxonSet">
+                    <alignment idref="unsampled_Brazil"/>
+                </taxa>
+            </trait>
+            <taxonset idref="TaxonSet.unsampled_Brazil"/>
+        </tree>
+        <parameter id="clockRate.c:unsampled_Brazil" spec="parameter.RealParameter" name="stateNode">4.0E-4</parameter>
+        <parameter id="gammaShape.s:unsampled_Brazil" spec="parameter.RealParameter" name="stateNode">0.288</parameter>
+        <parameter id="kappa.s:unsampled_Brazil" spec="parameter.RealParameter" lower="0.0" name="stateNode">6.032</parameter>
+        <parameter id="origin_BDSKY_Serial.t:unsampled_Brazil" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="Infinity">1000.0</parameter>
+        <parameter id="becomeUninfectiousRate_BDSKY_Serial.t:unsampled_Brazil" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="Infinity">1.0</parameter>
+        <parameter id="reproductiveNumber_BDSKY_Serial.t:unsampled_Brazil" spec="parameter.RealParameter" dimension="10" lower="0.0" name="stateNode" upper="Infinity">2.0</parameter>
+        <parameter id="samplingProportion_BDSKY_Serial.t:unsampled_Brazil" spec="parameter.RealParameter" lower="0.0" name="stateNode" upper="1.0">0.01</parameter>
+        <parameter id="freqParameter.s:unsampled_Brazil" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+    </state>
+
+    <init id="RandomTree.t:unsampled_Brazil" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:unsampled_Brazil" taxa="@unsampled_Brazil">
+        <populationModel id="ConstantPopulation0.t:unsampled_Brazil" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:unsampled_Brazil" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="BDSKY_Serial.t:unsampled_Brazil" spec="beast.evolution.speciation.BirthDeathSkylineModel" becomeUninfectiousRate="@becomeUninfectiousRate_BDSKY_Serial.t:unsampled_Brazil" origin="@origin_BDSKY_Serial.t:unsampled_Brazil" reproductiveNumber="@reproductiveNumber_BDSKY_Serial.t:unsampled_Brazil" samplingProportion="@samplingProportion_BDSKY_Serial.t:unsampled_Brazil" tree="@Tree.t:unsampled_Brazil"/>
+            <prior id="becomeUninfectiousRatePrior_BDSKY_Serial.t:unsampled_Brazil" name="distribution" x="@becomeUninfectiousRate_BDSKY_Serial.t:unsampled_Brazil">
+                <Normal id="Normal.0" name="distr">
+                    <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" name="mean">36.5</parameter>
+                    <parameter id="RealParameter.12" spec="parameter.RealParameter" estimate="false" name="sigma">1.0</parameter>
+                </Normal>
+            </prior>
+            <prior id="ClockPrior.c:unsampled_Brazil" name="distribution" x="@clockRate.c:unsampled_Brazil">
+                <LogNormal id="LogNormalDistributionModel.3" name="distr">
+                    <parameter id="RealParameter.13" spec="parameter.RealParameter" estimate="false" name="M">-7.8</parameter>
+                    <parameter id="RealParameter.14" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">1.75</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="FrequenciesPrior.s:unsampled_Brazil" name="distribution" x="@freqParameter.s:unsampled_Brazil">
+                <Uniform id="Uniform.3" name="distr"/>
+            </prior>
+            <prior id="GammaShapePrior.s:unsampled_Brazil" name="distribution" x="@gammaShape.s:unsampled_Brazil">
+                <Exponential id="Exponential.0" name="distr">
+                    <parameter id="RealParameter.0" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="KappaPrior.s:unsampled_Brazil" name="distribution" x="@kappa.s:unsampled_Brazil">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" name="S">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="originPrior_BDSKY_Serial.t:unsampled_Brazil" name="distribution" x="@origin_BDSKY_Serial.t:unsampled_Brazil">
+                <LogNormal id="LogNormalDistributionModel.4" name="distr">
+                    <parameter id="RealParameter.15" spec="parameter.RealParameter" estimate="false" name="M">-1.75</parameter>
+                    <parameter id="RealParameter.16" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.4</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="reproductiveNumberPrior_BDSKY_Serial.t:unsampled_Brazil" name="distribution" x="@reproductiveNumber_BDSKY_Serial.t:unsampled_Brazil">
+                <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                    <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="M">0.8</parameter>
+                    <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="S">0.5</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="samplingProportionPrior_BDSKY_Serial.t:unsampled_Brazil" name="distribution" x="@samplingProportion_BDSKY_Serial.t:unsampled_Brazil">
+                <Uniform id="Uniform.5" name="distr" upper="0.024"/>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.unsampled_Brazil" spec="ThreadedTreeLikelihood" data="@unsampled_Brazil" tree="@Tree.t:unsampled_Brazil">
+                <siteModel id="SiteModel.s:unsampled_Brazil" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:unsampled_Brazil">
+                    <parameter id="mutationRate.s:unsampled_Brazil" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant.s:unsampled_Brazil" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="hky.s:unsampled_Brazil" spec="HKY" kappa="@kappa.s:unsampled_Brazil">
+                        <frequencies id="estimatedFreqs.s:unsampled_Brazil" spec="Frequencies" frequencies="@freqParameter.s:unsampled_Brazil"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="StrictClock.c:unsampled_Brazil" spec="beast.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:unsampled_Brazil"/>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="StrictClockRateScaler.c:unsampled_Brazil" spec="ScaleOperator" parameter="@clockRate.c:unsampled_Brazil" weight="3.0"/>
+
+    <operator id="strictClockUpDownOperator.c:unsampled_Brazil" spec="UpDownOperator" scaleFactor="0.75" weight="3.0">
+        <up idref="clockRate.c:unsampled_Brazil"/>
+        <down idref="Tree.t:unsampled_Brazil"/>
+    </operator>
+
+    <operator id="gammaShapeScaler.s:unsampled_Brazil" spec="ScaleOperator" parameter="@gammaShape.s:unsampled_Brazil" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="KappaScaler.s:unsampled_Brazil" spec="ScaleOperator" parameter="@kappa.s:unsampled_Brazil" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="BDSKY_SerialTreeScaler.t:unsampled_Brazil" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:unsampled_Brazil" weight="3.0"/>
+
+    <operator id="BDSKY_SerialTreeRootScaler.t:unsampled_Brazil" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:unsampled_Brazil" weight="3.0"/>
+
+    <operator id="BDSKY_SerialUniformOperator.t:unsampled_Brazil" spec="Uniform" tree="@Tree.t:unsampled_Brazil" weight="30.0"/>
+
+    <operator id="BDSKY_SerialSubtreeSlide.t:unsampled_Brazil" spec="SubtreeSlide" tree="@Tree.t:unsampled_Brazil" weight="15.0"/>
+
+    <operator id="BDSKY_SerialNarrow.t:unsampled_Brazil" spec="Exchange" tree="@Tree.t:unsampled_Brazil" weight="15.0"/>
+
+    <operator id="BDSKY_SerialWide.t:unsampled_Brazil" spec="Exchange" isNarrow="false" tree="@Tree.t:unsampled_Brazil" weight="3.0"/>
+
+    <operator id="BDSKY_SerialWilsonBalding.t:unsampled_Brazil" spec="WilsonBalding" tree="@Tree.t:unsampled_Brazil" weight="3.0"/>
+
+    <operator id="becomeUninfectiousRateScaler_BDSKY_Serial.t:unsampled_Brazil" spec="ScaleOperator" parameter="@becomeUninfectiousRate_BDSKY_Serial.t:unsampled_Brazil" weight="2.0"/>
+
+    <operator id="reproductiveNumberScaler_BDSKY_Serial.t:unsampled_Brazil" spec="ScaleOperator" parameter="@reproductiveNumber_BDSKY_Serial.t:unsampled_Brazil" weight="10.0"/>
+
+    <operator id="samplingProportionScaler_BDSKY_Serial.t:unsampled_Brazil" spec="ScaleOperator" parameter="@samplingProportion_BDSKY_Serial.t:unsampled_Brazil" weight="10.0"/>
+
+    <operator id="updownBD_BDSKY_Serial.t:unsampled_Brazil" spec="UpDownOperator" scaleFactor="0.75" weight="2.0">
+        <up idref="reproductiveNumber_BDSKY_Serial.t:unsampled_Brazil"/>
+        <down idref="becomeUninfectiousRate_BDSKY_Serial.t:unsampled_Brazil"/>
+    </operator>
+
+    <operator id="origScaler_BDSKY_Serial.t:unsampled_Brazil" spec="ScaleOperator" parameter="@origin_BDSKY_Serial.t:unsampled_Brazil" weight="1.0"/>
+
+    <operator id="FrequenciesExchanger.s:unsampled_Brazil" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+        <parameter idref="freqParameter.s:unsampled_Brazil"/>
+    </operator>
+
+    <logger id="tracelog" spec="Logger" fileName="unsampled_Brazil.log" logEvery="7000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.unsampled_Brazil"/>
+        <log id="TreeHeight.t:unsampled_Brazil" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:unsampled_Brazil"/>
+        <log idref="clockRate.c:unsampled_Brazil"/>
+        <log idref="gammaShape.s:unsampled_Brazil"/>
+        <log idref="kappa.s:unsampled_Brazil"/>
+        <log idref="BDSKY_Serial.t:unsampled_Brazil"/>
+        <log idref="origin_BDSKY_Serial.t:unsampled_Brazil"/>
+        <log idref="becomeUninfectiousRate_BDSKY_Serial.t:unsampled_Brazil"/>
+        <log idref="reproductiveNumber_BDSKY_Serial.t:unsampled_Brazil"/>
+        <log idref="samplingProportion_BDSKY_Serial.t:unsampled_Brazil"/>
+        <log idref="freqParameter.s:unsampled_Brazil"/>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="10000">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:unsampled_Brazil" spec="Logger" fileName="$(tree).trees" logEvery="10000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:unsampled_Brazil" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@Tree.t:unsampled_Brazil"/>
+    </logger>
+
+    <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+
+</run>
+
+</beast>
