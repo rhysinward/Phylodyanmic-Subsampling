@@ -11,7 +11,7 @@ The repository contains the following elements:
 Contains some of the data (genomic data has been excluded due to permissions) used for analysis that is:
 
 * Case data for Amazonas State, Brazil and Hong Kong
-* XML files
+* Example XML files for Hong Kong and Amazonas State
 * Accession ID's for genomic data
 
 2. Data Processing Script
