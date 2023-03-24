@@ -1,4 +1,4 @@
-# Phylodyanmic-Subsampling
+# Phylodynamic-Subsampling
 
 
 # Repository description:
